@@ -36,7 +36,7 @@ class TapToReadMoreVC : UIViewController, STULabelDelegate {
   }
 
   override func viewDidLoad() {
-    let string = "STULabel makes it easy to implement a “Tap to read more” feature: Just add a truncation token with a .link attribute and then expand the label's size in a `label:link:wasTappedAt:` delegate method. The link text, the link formatting and the active link overlay are all customizable. "
+    let string = "︎︎▶︎STULabel makes it easy to implement a “Tap to read more” feature: Just add a truncation token with a .link attribute and then expand the label's size in a `label:link:wasTappedAt:` delegate method. The link text, the link formatting and the active link overlay are all customizable. "
 
     let string2LTR = "This also works when the truncated line happens to contain right-to-left text:\n"
     let string2RTL = "هذا مجرد نص حشو عربي ممل يجب أن يمتد على أكثر من سطر واحد ويفضل أن يكون أكثر من سطرين ، أو حتى أكثر من ثلاثة أسطر. "
